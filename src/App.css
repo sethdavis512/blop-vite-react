@@ -1,0 +1,52 @@
+.app {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+  text-align: left;
+}
+
+.app h1 {
+  margin: 0 0 0.5rem;
+}
+
+.app button {
+  margin: 1rem 0 2rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--accent-border);
+  border-radius: 6px;
+  background: var(--accent-bg);
+  color: var(--text-h);
+  font: inherit;
+  cursor: pointer;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+}
+
+.grid h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.1rem;
+  color: var(--text-h);
+}
+
+.grid code {
+  display: block;
+  padding: 0.5rem;
+  border-radius: 4px;
+  background: var(--code-bg);
+  font-size: 0.8rem;
+  overflow-x: auto;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0 0.5rem;
+  border-radius: 999px;
+  background: var(--accent-bg);
+  color: var(--accent);
+  font-size: 0.7rem;
+  vertical-align: middle;
+}
